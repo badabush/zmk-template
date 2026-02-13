@@ -1,0 +1,8 @@
+&i2c0 {
+    status = "okay";
+
+    nice_view: nice_view@3c {
+        compatible = "zmk,nice-view";
+        reg = <0x3c>;
+    };
+};
